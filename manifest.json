@@ -1,0 +1,21 @@
+{
+    "name":"ThemeO",
+    "description":"Changing the Theme of the page to user color choice",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "background":{
+        "scripts":[
+            "popup.js"
+        ],
+        "persistent":true
+    },
+    "browser_action":{
+        "default_title":"ThemeO",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
